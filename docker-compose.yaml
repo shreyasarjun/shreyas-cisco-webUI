@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  shreyas-ui-app:
+    image: shreyas-web:app$BUILD_NUMBER
+    build: .
+    container_name: shreyas1
+    ports:
+    - 1234:80
