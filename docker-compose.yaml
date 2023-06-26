@@ -5,4 +5,4 @@ services:
     build: .
     container_name: shreyas1
     ports:
-    - 1234:80
+    - 4000:80
